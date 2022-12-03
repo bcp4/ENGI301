@@ -1,0 +1,3 @@
+cd /var/lib/cloud9/ENGI301/python/opener
+./configpin.sh
+PYTHONPATH=/var/lib/cloud9/ENGI301/python/ht16k33:/var/lib/cloud9/ENGI301/python/servo python3 combo_lock.py
