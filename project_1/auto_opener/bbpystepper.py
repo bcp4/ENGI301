@@ -1,7 +1,8 @@
-""" 
-bbpystepper is a Python module used to control a stepper motor via the 
-BeagleBone
-"""
+
+#Code for Stepper Motors that are to be integrated in opener.py
+#Credit to Pete Bachant 
+#From: https://github.com/petebachant/BBpystepper
+#bbpystepper is a Python module used to control a stepper motor via the BeagleBone
 
 from __future__ import division
 import Adafruit_BBIO.GPIO as GPIO
@@ -78,4 +79,6 @@ class Stepper(object):
         self.angle = 0
         
 
+    def cleanup(self): #make sure motor is off 
+        pass
 
