@@ -14,7 +14,7 @@ display = hd44780.HD44780()
 class Display()
     dislay= None
    
-     def __init__(self, pins= ["P1_6", "P1_8", "P1_10", ""]):
+     def __init__(self, pins= ["P1_26", "P1_28", "P1_30", "P1_10", "P1_12", "P1_08", "P1_14", "P1_16"]):
         self.display= hd44780.HD44780()
     def clear():
         self.display.clear()

@@ -37,6 +37,7 @@ Use the following hardware components to make an automatic bottle opener:
   - 1 ultrasound sensor 
   - 12V power adapter
   - 1 button
+  - 1 SPI display
 
 Requirements:
   - Hardware:
